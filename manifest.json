@@ -17,7 +17,7 @@
         {
             "id": "ipl_api_key",
             "type": "input",
-            "name": "IPAPI.co API key",
+            "name": "API key",
             "description": "API key for ipgeolocation.io API. Click <a href=\"https://ipgeolocation.io/signup.html\">here</a> to register an account.",
             "default_value": ""
         }
