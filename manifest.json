@@ -18,7 +18,7 @@
             "id": "ipl_api_key",
             "type": "input",
             "name": "API key",
-            "description": "API key for ipgeolocation.io API. Click <a href=\"https://ipgeolocation.io/signup.html\">here</a> to register an account.",
+            "description": "API key for ipdata.co API. <a href=\"https://ipdata.co/sign-up.html\">Click here</a> to register an account to query 1500 requests daily.",
             "default_value": ""
         }
     ]
