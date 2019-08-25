@@ -1,0 +1,25 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "IP Lookup",
+    "description": "IP lookup extension for ULauncher",
+    "developer_name": "me@munim.net",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.2
+    },
+    "preferences": [{
+            "id": "ipl",
+            "type": "keyword",
+            "name": "IP Lookup",
+            "description": "IP lookup for any IP",
+            "default_value": "ip"
+        },
+        {
+            "id": "ipl_api_key",
+            "type": "input",
+            "name": "IPAPI.co API key",
+            "description": "API key for ipgeolocation.io API. Click <a href=\"https://ipgeolocation.io/signup.html\">here</a> to register an account.",
+            "default_value": ""
+        }
+    ]
+}
