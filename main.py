@@ -43,8 +43,6 @@ class IPLookupExtension(Extension):
 
             out_arr = {}
 
-            print(response)
-
             out_arr["IP"] = response["ip"]
             location = [response["city"], response["country_name"]]
 
