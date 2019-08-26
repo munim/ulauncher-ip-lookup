@@ -8,7 +8,7 @@
 ipdata.co provides 1500 requests per day for non-commercial usage. If you think that you are going to use this extension for commercial purpose, kindly please get a monthly subscription.
 
 ### Demo
-_Coming soon_
+![ULauncher IP Lookup Demo](/munim/ulauncher-ip-lookup/raw/master/ulauncher-ip-lookup-demo.gif)
 ### Requirement
 The following prerequisites are required to run this extension successfully.
 * ULauncher 5+
