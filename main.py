@@ -52,7 +52,7 @@ class IPLookupExtension(Extension):
             out_arr["Coordiates"] = "%s, %s" % (response["latitude"], response["longitude"])
             out_arr["Calling code"] = response["calling_code"]
             out_arr["Languages"] = ", ".join(obj["name"] for obj in response["languages"])
-            out_arr["ISP"] = response["organisation"]
+            out_arr["ISP"] = response["asn"]["name"]
             out_arr["Currency"] = "%s (%s)" % (response["currency"]["name"], response["currency"]["code"])
 
             return out_arr
@@ -69,6 +69,7 @@ class KeywordQueryEventListener(EventListener):
 
         query = event.get_argument() or ""
 
+        LOGGER.info(event.get_keyword())
 
         matches = re.findall(ip_regex, query, re.IGNORECASE)
 
